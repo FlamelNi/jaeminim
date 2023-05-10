@@ -52,11 +52,12 @@ header.hero {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  padding-bottom: 80px;
+  padding-bottom: 300px;
+  /* padding-bottom: 80px; */
 }
 
 header.hero .hero-text {
-  margin-top: 20%;
+  margin-top: 50%;
   margin-bottom: 20%;
 }
 header.hero .row {
@@ -107,11 +108,26 @@ ul.social-links li a img {
   max-height: 30px;
 }
 
+/* custom */
+.container-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+.black-text {
+  /* padding: 2em; */
+  color: #000;
+  /* border-radius: 5px; */
+  font-weight: 300;
+  /* font-size: 10px; */
+  /* min-height: 400px; */
+}
 
 /* Case study */
 .case-study .col-md-12 {
   transform: translateY(-80px);
-  -webkit-transform: translateY(-80px);
+  /* -webkit-transform: translateY(-80px); */
+  -webkit-transform: translateY(-180px);
   padding: 5em 3em;
   background-color: #fff;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
